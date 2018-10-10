@@ -15,8 +15,10 @@
 	function search(){
 		var wordToSearch = document.querySelector('.searchBox');
 		var definition = document.querySelector('.box');
+		var showWord = document.querySelector('.title);
 		var check,word = "";
 		check = wordToSearch.value; 
+		showWord.textContent = check;
 		for (var i = 0 ; i < wordList.length ; i++){
 		 word = wordList[i].vocab;
 			if(word === wordToSearch.value){
