@@ -15,7 +15,7 @@
 	function search(){
 		var wordToSearch = document.querySelector('.searchBox');
 		var definition = document.querySelector('.box');
-		var showWord = document.querySelector('.title);
+		var showWord = document.querySelector('.title');
 		var check,word = "";
 		check = wordToSearch.value; 
 		showWord.textContent = check;
